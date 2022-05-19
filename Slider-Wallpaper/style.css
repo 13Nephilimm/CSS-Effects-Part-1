@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
+
+.slider {
+    width: 90rem;
+    height: 90rem;
+    background: url(img-1.jpg);
+    animation: slide 16s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url(img-2.jpg);
+    }
+
+    50% {
+        background: url(img-3.jpg);
+    }
+
+    75% {
+        background: url(img-4.jpg);
+    }
+
+    100% {
+        background: url(img-1.jpg);
+    }   
+}

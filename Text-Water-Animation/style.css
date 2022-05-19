@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 53, 53);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 17rem;
+}
+
+.main-header {
+    font-size: 9.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c3e506c;
+    background-image: url(water.png);
+    -webkit-background-clip: text;
+    animation: water 20s infinite;
+}
+
+@keyframes water {
+    from {
+        background-position: left 0 top 0;
+    }
+
+    to {
+        background-position: left 100rem top 0;
+    }
+}

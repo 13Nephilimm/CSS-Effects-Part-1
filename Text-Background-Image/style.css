@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30rem;
+}
+
+.main-header {
+    font-size: 20rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2rem;
+    background: url(img.jpeg) 55% 60%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
